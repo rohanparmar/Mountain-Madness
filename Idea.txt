@@ -1,0 +1,12 @@
+########################################################################
+
+Date: April 5th, 2022
+
+Basic idea for the Spring Hackathon: Mountain Madness website.
+
+Plans:
+
+1) Build website in React
+2) Deploy
+
+########################################################################
