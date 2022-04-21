@@ -33,11 +33,11 @@ body {
 
 h6 {
     margin: 0;
-    font-family: Quicksand;
+    font-family: Montserrat;
     font-size: 30vh;
     letter-spacing: 1vw;
     color: white;
-    background: url("https://thumbs.dreamstime.com/b/tropical-flower-pattern-seamless-flowers-blossom-flowers-nature-background-vector-illustration-61142748.jpg");
+    background: url("assets/images/mountain.jpg");
     background-size: auto 200%;
     background-clip: text;
     text-fill-color: transparent;
@@ -97,6 +97,13 @@ a, body, div, footer, form, h1, h2, h3, h4, header, html, img, input, li, main, 
     font-family: "Lato", sans-serif;
     letter-spacing: 1px;
     font-size: 14px;
+    color: #333333;
+  }
+
+  h8 {
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1px;
+    font-size: 60px;
     color: #333333;
   }
 
@@ -242,7 +249,7 @@ body {
 }
 @media (max-width:768px) {
     #cover .navbar {
-    margin: 0vw 2vw 0 8vw;
+    margin: 0vw 8vw 0 8vw;
     width: 100%}
 }@media (max-width:576px) {
     #cover .navbar {
@@ -252,22 +259,22 @@ body {
     display: none;
 }
 }#cover .navbar .navbar-btn {
-    margin: 10px 20px;
+    margin: 25px 30px;
 }
 @media (max-width:1200px) {
     #cover .navbar .navbar-btn {
-    margin: 10px 20px;
+    margin: 25px 30px;
 }
 }@media (max-width:768px) {
     #cover .navbar .navbar-btn {
-    margin: 10px 0;
+    margin: 25px 0;
 }
 }#cover .navbar .navbar-btn .link-after, #cover .navbar .navbar-btn .modal .modal-content .modal-text-container .modal-header .modal-navbar .navbar-txt-track::after, #cover .navbar .navbar-btn .navbar-txt::after, .modal .modal-content .modal-text-container .modal-header .modal-navbar #cover .navbar .navbar-btn .navbar-txt-track::after {
     content: "";
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: .15em;
+    height: .30em;
     background: #2296b9;
 }
 #cover .navbar .navbar-btn .navbar-txt::after {
@@ -281,7 +288,7 @@ body {
 #cover .navbar .navbar-btn .navbar-txt.no-underline:hover::after {
     width: 0%}
 #cover .navbar .navbar-btn.apply {
-    padding: 5px 20px;
+    padding: 50px 20px;
     border-radius: 5px;
     background-color: #3accd1;
     -webkit-transition: -webkit-box-shadow .3s;
@@ -455,19 +462,19 @@ body {
     font-size: .7em;
 }
 }.general:hover {
-    color: #a9c2b1;
+    color: #62584B;
     cursor: pointer;
 }
 .location:hover {
-    color: #60b6d3;
+    color: #62584B;
     cursor: pointer;
 }
 .reg:hover {
-    color: #ffa4be;
+    color: #62584B;
     cursor: pointer;
 }
 .schedule:hover {
-    color: #ffc57a;
+    color: #62584B;
     cursor: pointer;
 }
 
