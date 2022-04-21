@@ -154,7 +154,7 @@ body {
     overflow-x: hidden;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
-    background-color: #f9f3e5;
+    background-color: #FFFFFF;
     font-family: Karla;
 }
 
@@ -190,7 +190,9 @@ body .header {
     padding-right: 4vw;
 }
 
-}body #logo {
+}
+
+body #logo {
     position: absolute;
     width: 5vw;
     margin: 1.3vw;
@@ -209,7 +211,7 @@ body {
     overflow-x: hidden;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
-    background-color: #f9f3e5;
+    background-color: #FFFFFF;
 }
 
 #cover .navbar-wrap {
@@ -399,18 +401,7 @@ body {
     border-radius: 40px;
     z-index: -1;
 }
-#faq-general {
-    background-color: #a9c2b1;
-}
-#faq-virtual {
-    background-color: #c1e1ec;
-}
-#faq-reg {
-    background-color: #ffa4be;
-}
-#faq-tracks-teams {
-    background-color: #ffc57a;
-}
+
 .faq-bullet {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -467,7 +458,7 @@ body {
     color: #a9c2b1;
     cursor: pointer;
 }
-.virtual:hover {
+.location:hover {
     color: #60b6d3;
     cursor: pointer;
 }
@@ -475,7 +466,7 @@ body {
     color: #ffa4be;
     cursor: pointer;
 }
-.tracks-teams:hover {
+.schedule:hover {
     color: #ffc57a;
     cursor: pointer;
 }
